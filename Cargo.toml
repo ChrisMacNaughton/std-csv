@@ -1,0 +1,6 @@
+[package]
+name = "std-csv"
+version = "0.1.0"
+authors = ["Chris MacNaughton <chris@centaurisolutions.nl>"]
+
+[dependencies]
