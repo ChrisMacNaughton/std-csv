@@ -4,3 +4,10 @@ version = "0.1.0"
 authors = ["Chris MacNaughton <chris@centaurisolutions.nl>"]
 
 [dependencies]
+
+[dev-dependencies]
+criterion = "0.1.2"
+
+[[bench]]
+name = "geoip"
+harness = false

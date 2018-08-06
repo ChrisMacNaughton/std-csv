@@ -115,7 +115,6 @@ impl <T: BufRead>Parser<T> {
                 }
                 // consume = 0;
                 if let Some(&&NEWLINE) = buff.peek() {
-                    println!("Newline!");
                     consume += 1;
                     err = Some(ParseError::Eol);
                 }
