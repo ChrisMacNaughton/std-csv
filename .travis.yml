@@ -39,9 +39,10 @@ before_script:
 
 # the main build
 script:
-  -   cargo build
-  -   cargo test
-  -   cargo test --release
+  - cargo build
+  - cargo test
+  - cargo test --release
+  - cargo bench
 
 # TODO: Re-enable coverage when it works on travis again
 # after_success: |
