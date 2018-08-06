@@ -1,3 +1,3 @@
 [submodule "tests/csv-spectrum"]
 	path = tests/csv-spectrum
-	url = git@github.com:maxogden/csv-spectrum.git
+	url = https://github.com/maxogden/csv-spectrum.git
